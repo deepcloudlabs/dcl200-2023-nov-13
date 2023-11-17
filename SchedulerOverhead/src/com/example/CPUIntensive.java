@@ -23,6 +23,7 @@ public class CPUIntensive {
         */
     }
 
+	@SuppressWarnings("unused")
 	private static void swap(int[] numbers, int j) {
 		int temp = numbers[j];
 		numbers[j] = numbers[j + 1];
